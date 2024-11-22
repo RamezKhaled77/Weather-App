@@ -59,14 +59,15 @@ body {
 .search-box input::placeholder {
     color: #bcbbbbee;
     text-transform: capitalize;
-    font-size: 15px;
+    font-size: 16px;
 }
 .search-box button {
     position: absolute;
     right: 0;
     width: 40px;
     height: 100%;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, .15);
+    border-radius: 12px;
     border: none;
     outline: none;
     font-size: 28px;
